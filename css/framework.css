@@ -46,3 +46,15 @@
   border-radius: 6px;
 }
 /* border */
+/* Components */
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Components */
+/* Width + Height */
+.w-full {
+  width: 100%;
+}
+/* Width + Height */
