@@ -5,6 +5,17 @@
 .align-center {
   align-items: center;
 }
+.d-grid {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+@media(max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+}
 /* end box */
 /* start padding + margin */
 .p-10 {
@@ -43,10 +54,18 @@
 .fs-14 {
   font-size: 14px;
 }
+@media(max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
 /* Fonts */
 /* border */
 .rad-6 {
   border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
 }
 /* border */
 /* Components */
