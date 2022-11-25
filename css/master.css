@@ -130,4 +130,26 @@ ul {
   height: 32px;
   margin-left: 15px;
 }
+.content h1 {
+	margin: 20px 20px 40px;
+}
+.content h1::before,
+.content h1::after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	height: 3px;
+}
+.content h1::before {
+	width: 120px;
+	background-color: #ddd;
+	border-radius: 3px;
+}
+.content h1::after {
+	width: 40px;
+	background-color: black;
+	border-radius: 3px;
+}
+
 /* Content */
