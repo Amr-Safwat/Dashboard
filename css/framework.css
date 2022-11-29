@@ -22,9 +22,15 @@
 .gap-20 {
   gap: 20px;
 }
+.d-block {
+  display: block;
+}
 @media(max-width: 767px) {
   .block-mobile {
     display: block;
+  }
+  .hide-mobile {
+    display: none;
   }
 }
 /* end box */
@@ -50,6 +56,15 @@
 .mt-5 {
   margin-top: 5px;
 }
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
 /* end padding + margin */
 /* start color */
 .bg-white {
@@ -58,11 +73,17 @@
 .bg-eee {
   background-color: #eee;
 }
+.bg-blue {
+  background-color: var(--blue-color);
+}
 .c-black {
   color: black;
 }
 .c-grey {
   color: var(--grey-color);
+}
+.c-white {
+  color: white;
 }
 /* end color */
 /* Start position */
@@ -101,5 +122,8 @@
 /* Width + Height */
 .w-full {
   width: 100%;
+}
+.w-fit {
+  width: fit-content;
 }
 /* Width + Height */
