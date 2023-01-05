@@ -62,6 +62,9 @@
 .mt-20 {
   margin-top: 20px;
 }
+.mb-10 {
+  margin-bottom: 10px;
+}
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -98,6 +101,9 @@
 .fs-14 {
   font-size: 14px;
 }
+.fs-15 {
+font-size: 15px;
+}
 @media(max-width: 767px) {
   .txt-c-mobile {
     text-align: center;
@@ -105,6 +111,9 @@
 }
 /* Fonts */
 /* border */
+.b-none {
+border: none;
+}
 .rad-6 {
   border-radius: 6px;
 }
@@ -117,6 +126,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
 }
 /* Components */
 /* Width + Height */

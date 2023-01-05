@@ -209,3 +209,17 @@ ul {
   }
 }
 /* Welcome Wibget */
+/* Quick Draft */
+.quick-draft textarea {
+  resize: none;
+  min-height: 180px;
+}
+.quick-draft .save {
+  transition: .3s;
+  margin-left: auto;
+  cursor: pointer;
+}
+.quick-draft .save:hover {
+  background-color: var(--blue-alt-color);
+}
+/* Quick Draft */
