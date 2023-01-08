@@ -13,6 +13,26 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--blue-color);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue-alt-color);
+}
 *:focus {
 	outline: none;
 }
