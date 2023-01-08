@@ -223,3 +223,64 @@ ul {
   background-color: var(--blue-alt-color);
 }
 /* Quick Draft */
+/* Targets */
+.targets .target .icon {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+.targets .target .details {
+  flex: 1;
+}
+.targets .target .prog {
+  height: 4px;
+}
+.targets .target .prog > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.targets .target .prog > span span {
+  position: absolute;
+  bottom: 16px;
+  right: -16px;
+  font-size: 13px;
+  padding: 2px 5px;
+  border-radius: 6px;
+  color: white;
+}
+.targets .target .prog > span span::after {
+  content: '';
+  border-color: transparent;
+  border-width: 5px;
+  border-style: solid;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+}
+
+.targets .target .prog > .blue span::after {
+  border-top-color: var(--blue-color);
+}
+.targets .target .prog > .orange span::after {
+  border-top-color: var(--orange-color);
+}
+.targets .target .prog > .green span::after {
+  border-top-color: var(--green-color);
+}
+
+.blue .icon,
+.blue .details .prog {
+  background-color: rgb(0 117 255 / 20%);
+}
+.orange .icon,
+.orange .details .prog {
+  background-color: rgb(255 165 0 / 20%);
+}
+.green .icon,
+.green .details .prog {
+  background-color: rgb(0 128 0 / 20%);
+}
+/* Targets */

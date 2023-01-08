@@ -79,8 +79,21 @@
 .bg-blue {
   background-color: var(--blue-color);
 }
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+
 .c-black {
   color: black;
+}
+.c-green {
+  color: green;
+}
+.c-orange {
+  color: orange;
 }
 .c-grey {
   color: var(--grey-color);
@@ -104,6 +117,9 @@
 .fs-15 {
 font-size: 15px;
 }
+.fw-blod {
+  font-weight: bold;
+}
 @media(max-width: 767px) {
   .txt-c-mobile {
     text-align: center;
@@ -122,6 +138,11 @@ border: none;
 }
 /* border */
 /* Components */
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .between-flex {
   display: flex;
   align-items: center;
