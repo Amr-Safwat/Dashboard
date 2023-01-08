@@ -89,11 +89,14 @@
 .c-black {
   color: black;
 }
+.c-blue {
+  color: var(--blue-color);
+}
 .c-green {
-  color: green;
+  color: var(--green-color);
 }
 .c-orange {
-  color: orange;
+  color: var(--orange-color);
 }
 .c-grey {
   color: var(--grey-color);
