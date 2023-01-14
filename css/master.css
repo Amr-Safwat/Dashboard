@@ -321,3 +321,26 @@ ul {
   }
 }
 /* /Ticket */
+/* New */
+.news .news-row:not(:last-of-type) {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.news .news-row img {
+  width: 100px;
+  border-radius: 6px;
+  margin-right: 15px;
+}
+.news .info {
+  flex-grow: 1;
+}
+@media (max-width: 767px) {
+  .news .news-row {
+    flex-direction: column;
+  }
+  .news .news-row .label {
+    margin-top: 10px;
+  }
+}
+/* /New */
