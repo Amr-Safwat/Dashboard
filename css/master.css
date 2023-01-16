@@ -344,3 +344,26 @@ ul {
   }
 }
 /* /New */
+/* Latest Tasks */
+.latest-tasks .task-row:not(:last-of-type) {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.latest-tasks .task-row .info {
+  flex: 1;
+}
+.latest-tasks .done{
+  opacity: .3;
+}
+.latest-tasks .done .info {
+  text-decoration: line-through;
+}
+.latest-tasks .task-row i {
+  cursor: pointer;
+  transition: .3s;
+}
+.latest-tasks .task-row i:hover {
+  color: var(--red-color);
+}
+/* /Latest Tasks */
