@@ -368,3 +368,12 @@ ul {
   color: var(--red-color);
 }
 /* /Latest Tasks */
+/* Latest Uploads */
+.uploads ul li:not(:last-of-type) {
+  border-bottom: 1px solid #ccc;
+}
+.uploads ul li img {
+  width: 40px;
+  height: 40px;
+}
+/* Latest Uploads */
