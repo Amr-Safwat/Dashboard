@@ -377,3 +377,48 @@ ul {
   height: 40px;
 }
 /* Latest Uploads */
+/* Last Project */
+.last-project ul::before {
+  content: '';
+  position: absolute;
+  left: 11px;
+  width: 2px;
+  height: 95%;
+  background-color: var(--blue-color);
+}
+.last-project ul li::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid white;
+  outline: 2px solid var(--blue-color);
+  background-color: white;
+  margin-right: 15px;
+  z-index: 1;
+}
+.last-project ul li.done::before {
+  background-color: var(--blue-color);
+}
+.last-project ul li.current::before {
+  color: red;
+  animation: change-color 0.8s infinite alternate;
+}
+.last-project .launch-icon {
+  position: absolute;
+  width: 160px;
+  right: 0;
+  bottom: 0;
+  opacity: .1;
+}
+/* Last Project */
+/* Animations */
+@keyframes change-color {
+  from {
+    background-color: var(--blue-color);
+  } to {
+    background-color: white;
+  }
+}
+/* Animations */
