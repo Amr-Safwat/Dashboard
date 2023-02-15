@@ -431,6 +431,18 @@ ul {
   border-left: 2px solid var(--red-color);
 }
 /* Reminders */
+/* Latest Post */
+/* Latest Post */
+.latest-post .avatar {
+  width: 48px;
+  height: 48px;
+}
+.latest-post .post-content {
+  line-height: 1.8;
+  min-height: 140px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
 /* Animations */
 @keyframes change-color {
   from {
