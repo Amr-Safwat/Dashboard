@@ -214,4 +214,7 @@ border: none;
 .w-fit {
   width: fit-content;
 }
+.h-full {
+  height: 100%;
+}
 /* Width + Height */
