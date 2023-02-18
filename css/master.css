@@ -16,6 +16,7 @@ body {
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 
 /* Track */
@@ -154,6 +155,9 @@ ul {
   height: 32px;
   margin-left: 15px;
   border-radius: 50%;
+}
+.content {
+  overflow: hidden;
 }
 .content h1 {
 	margin: 20px 20px 40px;
@@ -490,6 +494,46 @@ ul {
   background-color: #0077b5;
 }
 /* Social Media */
+/* Projects */
+.projects .responsive-table {
+  overflow-x: auto;
+}
+.projects table {
+  min-width: 1000px;
+  border-spacing: 0;
+}
+.projects thead td {
+  background-color: #eee;
+  font-weight: bold;
+}
+.projects table td {
+  padding: 15px;
+}
+.projects tbody td {
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  transition: .3s;
+}
+.projects table tbody tr td:last-child {
+  border-right: 1px solid #eee;
+}
+.projects tbody tr:hover td {
+  background-color: #faf7f7;
+}
+.projects table img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: white;
+}
+.projects table img:not(:first-child) {
+  margin-left: -20px;
+}
+.projects table .label {
+  font-size: 13px;
+}
+/* Projects */
 /* Animations */
 @keyframes change-color {
   from {
