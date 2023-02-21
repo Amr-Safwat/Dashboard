@@ -600,7 +600,12 @@ ul {
   cursor: no-drop;
 }
 /* General Info */
-
+/* Security Info */
+.security {}
+.security > div:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+/* Security Info */
 /* Animations */
 @keyframes change-color {
   from {
