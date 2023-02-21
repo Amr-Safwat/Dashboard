@@ -552,7 +552,9 @@ ul {
   min-height: 150px;
 }
 .toggle-checkbox {
+  -webkit-appearance: none;
   appearance: none;
+  display: none;
 }
 .toggle-switch {
   background-color: #ccc;
@@ -589,6 +591,16 @@ ul {
   color: var(--blue-color);
 }
 /* Settings Page */
+/* General Info */
+.info label {}
+.info input {
+  border: 1px solid #ccc;
+}
+.info input[id="email"] {
+  cursor: no-drop;
+}
+/* General Info */
+
 /* Animations */
 @keyframes change-color {
   from {
