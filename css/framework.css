@@ -184,6 +184,9 @@ font-size: 15px;
 .b-none {
 border: none;
 }
+.b-ccc {
+  border: 1px solid #eee;
+}
 .rad-6 {
   border-radius: 6px;
 }

@@ -606,6 +606,27 @@ ul {
   border-bottom: 1px solid #ccc;
 }
 /* Security Info */
+/* Social Info */
+.social-info div i {
+  width: 40px;
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  transition: .3s;
+}
+.social-info div input {
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  border-radius: 0 6px 6px 0;
+  padding-left: 10px;
+}
+.social-info > div:focus-within i {
+  color: black;
+}
+/* Social Info */
 /* Animations */
 @keyframes change-color {
   from {
