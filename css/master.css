@@ -627,6 +627,50 @@ ul {
   color: black;
 }
 /* Social Info */
+/* Widgets Control */
+.widgets-control input {
+  appearance: none;
+}
+.widgets-control label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.widgets-control label:hover::before {
+  border-color: var(--blue-alt-color);
+}
+.widgets-control label::before,
+.widgets-control label::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+    border-radius: 4px;
+  transition: .3s;
+}
+.widgets-control label::before {
+  content: '';
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--grey-color);
+}
+.widgets-control label::after {
+content: '\f00c';
+    font-family: 'font awesome 5 free';
+    font-weight: 900;
+    width: 18px;
+    height: 18px;
+    background-color: var(--blue-color);
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+.widgets-control input:checked + label::after {
+  transform: scale(1);
+}
+/* Widgets Control */
 /* Animations */
 @keyframes change-color {
   from {
