@@ -671,6 +671,64 @@ content: '\f00c';
   transform: scale(1);
 }
 /* Widgets Control */
+/* Backup Manager */
+.backup input {
+  appearance: none;
+}
+.backup .time label {
+  padding-left: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.backup .time label::before,
+.backup .time label::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.backup .time label::before {
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--grey-color);
+}
+.backup .time label::after {
+  width: 12px;
+  height: 12px;
+  background-color: var(--blue-color);
+  left: 5px;
+  top: 5px;
+  transform: scale(0);
+  transition: .3s;
+}
+.backup .time input:checked + label::before {
+  border-color: var(--blue-color);
+}
+.backup .time input:checked + label::after {
+  transform: scale(1);
+}
+.backup .servers {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+@media (max-width: 767px) {
+  .backup .servers {
+    flex-wrap: wrap;
+  }
+}
+.backup .servers .server {
+  border: 2px solid #eee;
+}
+.backup .servers .server label {
+  cursor: pointer;
+}
+.backup .servers input[type="radio"]:checked + .server {
+  border-color: var(--blue-color);
+  color: var(--blue-color);
+}
+/* Backup Manager */
 /* Animations */
 @keyframes change-color {
   from {
